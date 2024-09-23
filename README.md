@@ -2,7 +2,7 @@
 
 The CODYM is a Markov-based model of conversational dynamics based on the binarized length of speaker turns. CODYM analysis offers a robust methodology for examining information flow between conversational participants in a variety of contexts. 
 
-The nodes of a *k*-order CODYM represent the binarized lenghts of the previous *k* turns. Edges of the model represent the length of the current turn. Models are populated with the frequency of occurrance of each state/transition in all turns in a corpus (or any specified subset thereof). In the 2-order and 3-order models below, **S** represents a short turn and **L** represents a long turn.
+The nodes of a *k*-order CODYM represent the binarized lengths of the previous *k* turns. Edges of the model represent the length of the current turn. Models are populated with the frequency of occurrence of each state/transition in all turns in a corpus (or any specified subset thereof). In the 2-order and 3-order models below, **S** represents a short turn and **L** represents a long turn.
 
 ![CODYM example](CODYMs.png "CODYM example")
 |:--:| 
@@ -20,4 +20,4 @@ The second example (`CODYM_example2.py`) creates a CODYM model for the Supreme C
 |:--:| 
 | *Normative CODYM of the Supreme Court Corpus* |
 
-This code is still very much in development, and comes with no guarantees. For more information on CODYM analysis and how to interpret a CODYM, see our [preprint](https://arxiv.org/abs/2010.05164) on this novel method and an example application in the study of serious illness communication.
+This code is still very much in development, and comes with no guarantees. For more information on CODYM analysis, how to interpret a CODYM model, and an example application in the study of serious illness communication, see [our paper in PLOS ONE](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0253124). Extended analytical techniques using CODYM analysis are included in our [preprint](https://arxiv.org/abs/2010.05164).
