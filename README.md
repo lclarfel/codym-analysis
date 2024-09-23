@@ -21,3 +21,7 @@ The second example (`CODYM_example2.py`) creates a CODYM model for the Supreme C
 | *Normative CODYM of the Supreme Court Corpus* |
 
 This code is still very much in development, and comes with no guarantees. For more information on CODYM analysis and how to interpret a CODYM, see our [preprint](https://arxiv.org/abs/2010.05164) on this novel method and an example application in the study of serious illness communication.
+
+
+## Citation
+Clarfeld L, Gramling R, Rizzo D, Eppstein M.  A general model of conversational dynamics with application in serious illness communication. PLoS One. 2021. Jul 1;16(7):e0253124 [https://doi.org/10.1371/journal.pone.0253124](https://doi.org/10.1371/journal.pone.0253124)
